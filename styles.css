@@ -236,14 +236,17 @@ font-size: 25px;
     .card {
         display: flex;
         max-width: 525px;
+        flex-direction: column;
     }
     .inner-card {
         width: 300px;
         padding: 20px;
+        flex-direction: column;
     }
     
     .service-image {
         width: 400px;
         border-radius: 10px 0 0 10px;
+        flex-direction: column;
     }
 }
