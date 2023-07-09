@@ -250,6 +250,5 @@ font-size: 25px;
     
     .service-image {
         width: 400px;
-        flex-direction: column;
     }
 }
