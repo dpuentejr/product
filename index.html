@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link 
+    href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css" 
+    rel="stylesheet">
+</head>
+<body>           
+
+    <!-- David Puente Jr.
+    
+    7/9/2023, CIS133DA
+    
+    Project 3 : Product Page -->
+
+    <header id="header">
+        <nav id="nav-bar">
+            <div class="logo-container">
+               <img 
+               src="https://static.vecteezy.com/system/resources/previews/000/601/304/original/vector-laptop-free-logo-template.jpg" 
+               alt="logo" 
+               id="header-img" />
+                <span class="the-products">Products and Services</span>
+                </div>
+                <ul class="nav-links">
+                    <li><a href=”index.html” class="nav-link">Home</a></li>
+                    <li><a href=”survey.html” class="nav-link">Survey</a></li>
+                    <li><a href=”tribute.html” class="nav-link">Tribute</a></li>
+                    <li><a href=”product.html” class="nav-link">Product</a></li>
+            </ul>
+            
+        </nav>
+    </header>
+    <section id="email-section">
+        <h2>Request My Products & Services</h2>
+        <form action="https://www.freecodecamp.com/email.submit" id="form">
+        <input 
+        id="email" 
+        type="email" 
+        required 
+        placeholder="Enter your email address" 
+        name="email" />
+        <input 
+        type="submit" 
+        id="submit" 
+        value="REQUEST FOR INFROMATION" />
+        </form>
+    </section>
+    
+    <section id="features">
+        <div class="feature">
+            <i class="ri-file-list-3-line ri-4x icon"></i>
+            <div>
+                <h2>Technical Documentation</h2>
+              <p>
+                I provide easy and secure documentation tools to store credentials, procedures, and environmental 
+                details so your technicians never have to waste time hunting for information again.
+              </p>
+            </div>
+        </div>
+        <div class="feature">
+            <i class="ri-macbook-line ri-4x ri-4x icon"></i>
+            <div>
+                <h2>Desktop Support Services</h2>
+              <p>
+                I provide technical support to your home or workplace for instant help. As an experianced technician, 
+                I provide assistance on PC, Macs, desktop, laptop, tablet, smartphones, printers, and more..
+              </p>
+            </div>
+        </div>
+        <div class="feature">
+            <i class="ri-computer-line ri-4x icon"></i>
+            <div>
+                <h2>Server Administration</h2>
+              <p>
+                As a server administrator, I provide support services such as data protection (backup and systems security), 
+                Microsoft Windows 2008 Active Directory (to include Group Policy management), WSUS, DHCP, DNS, help desk 
+                ticketing tools (SCSM), Microsoft Exchange services, client imaging, file and print services, and other 
+                server/network application services.
+              </p>
+            </div>
+        </div>
+    </section>
+    
+        <section>
+            <h2>Watch Our Video</h2>
+            <iframe 
+            id="video" 
+            height="400" 
+            src="https://www.youtube.com/embed/TdSA7gkVYU0" 
+             allowfullscreen>
+        </iframe>
+        </section>
+        
+    <section id="service">
+        <h2>Services</h2>
+        <div class="service-cards">
+
+            <div class="card">
+                <div class="service-image service1"></div>
+                <div class="inner-card">
+
+                    <div class="service-tier">Tier 0</div>
+
+                    <h1 class="header">Technical Documentation</h1>
+
+                    <p class="content"> 
+                        You can pay to store your most vital information at our data center starting as low as $100 a month for 100Gbs of storage.
+                        your technical documentation services.</p>                    
+                        
+                    <button class="add">
+                        Add to Cart
+                    </button>
+
+                </div>
+            </div>
+            
+            <div class="card">
+                <div class="service-image service2"></div>
+                <div class="inner-card">
+                    
+                    <div class="service-tier">Tier 1-2</div>
+
+                    <h1 class="header">Desktop Support</h1>
+
+                    <p class="content">My approach is simple: fix it fast and make it easy, because every unsolved IT glitch costs 
+                        productivity. I will support your end users 24x7x365, working with your people to reduce the “hassle factor” 
+                        inherent to managing technology starting $500 a month.</p>                    
+                        
+                    <button class="add">
+                        Add to Cart
+                    </button>
+                    </div>
+
+            </div>
+
+            <div class="card">
+                <div class="service-image service3"></div>
+                <div class="inner-card">
+                    
+                    <div class="service-tier">Tier 2-3</div>
+
+                    <h1 class="header">Server Administration</h1>
+
+                    <p class="content">I can manage the health and performance of your infrastructure, including standard blocking and tackling, reducing false positives, and hands-on posture reporting, 
+                        all from a single pane of glass starting at $700 a month.</p>                    
+                        
+                    <button class="add">
+                        Add to Cart
+                    </button>
+                    </div>
+
+            </div>
+        </div>
+        </section>
+        <footer>
+            <address id="address">
+              <a href="https://www.doggies.com" target="_blank">Doggies Official Website</a>
+              - Doggies Consultation Inc.
+              123 Doggie Lane, 
+              San Antonio, TX 78224
+            </address>
+          </footer>
+</body>
+</html>
